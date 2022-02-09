@@ -1,0 +1,69 @@
+:root {
+  --text-color: #2e65fe;
+}
+
+body {
+  background: linear-gradient(to right, #009fff, #ec2f4b);
+}
+.dsnv {
+  background-color: white;
+  padding: 31px 54px;
+  margin-top: 88px;
+  border-radius: 20px;
+}
+.dsnv__header {
+  display: flex;
+  justify-content: space-between;
+}
+.header h2 {
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.btn.btn-primary {
+  font-size: 16px;
+  padding: 15px 16px;
+  border-radius: 16px;
+}
+.input-group-text {
+  cursor: pointer;
+}
+thead tr th {
+  text-align: center;
+  color: var(--text-color);
+}
+/* addNV */
+.addNV {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  display: none;
+}
+.addNV__box {
+  background-color: #fff;
+  padding: 10px 36px;
+  border-radius: 20px;
+  width: 40%;
+  margin: 203px auto;
+}
+.addNV .addNV__info {
+  background: linear-gradient(to right, #eaafc8, #654ea3);
+  padding: 33px 40px;
+  border-radius: 20px;
+}
+.addNV__button {
+  text-align: right;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.form-control {
+  height: 40px !important;
+}
+
+#tbodyNhanVien tr td {
+  text-align: center;
+}
