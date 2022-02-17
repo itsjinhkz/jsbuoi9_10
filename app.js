@@ -12,7 +12,7 @@ var dsnv = [];
 
 // dsnv = JSON.parse(dsnvLocal);
 
-renderTable(dsnv);
+// renderTable(dsnv);
 
 function themNhanVien() {
   var ma = document.querySelector("#maNV").value;
@@ -26,7 +26,7 @@ function themNhanVien() {
 
   dsnv.push(nhanVien);
   renderTable(dsnv);
-  luuDataLocal();
+  // luuDataLocal();
 }
 
 function renderTable(arr) {
@@ -60,13 +60,13 @@ function xoaNV(maNV) {
   var i = timKiemNV(maNV);
   dsnv.splice(i, 1);
   renderTable(dsnv);
-  luuDataLocal();
+  // luuDataLocal();
 }
 
-function luuDataLocal() {
-  var dsnvJSON = JSON.stringify(dsnv);
-  localStorage.setItem("dsnvLocal", dsnvJSON);
-}
+// function luuDataLocal() {
+//   var dsnvJSON = JSON.stringify(dsnv);
+//   localStorage.setItem("dsnvLocal", dsnvJSON);
+// }
 
 function timNV() {
   var tenNVValue = document.getElementById("tenNVTxt").value;
