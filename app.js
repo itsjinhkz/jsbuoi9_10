@@ -8,9 +8,9 @@ function closePopUpThemNV() {
 
 var dsnv = [];
 
-var dsnvLocal = localStorage.getItem("dsnvLocal");
+// var dsnvLocal = localStorage.getItem("dsnvLocal");
 
-dsnv = JSON.parse(dsnvLocal);
+// dsnv = JSON.parse(dsnvLocal);
 
 renderTable(dsnv);
 
